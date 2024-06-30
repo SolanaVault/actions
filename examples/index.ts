@@ -13,7 +13,7 @@ console.log(process.env.ENVIRONMENT);
 console.log(process.env.RPC_URL);
 
 // <--Actions-->
-app.route('/api/thevault/stake', theVault);
+app.route('api/stake', theVault);
 // </--Actions-->
 
 app.doc('/doc', {
